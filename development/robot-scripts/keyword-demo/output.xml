@@ -1,67 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.6.5 on win32)" generated="20180927 21:11:27.350">
-<suite id="s1" name="Demo" source="D:\Documents\Training Courses\Level 1\06 Create a More Readable Script\04 intro to keywords\keyword-demo\demo.robot">
-<test id="s1-t1" name="Test case 1">
+<robot generator="Robot 7.3.2 (Python 3.10.7 on win32)" generated="2025-09-24T15:23:40.566972" rpa="false" schemaversion="5">
+<suite id="s1" name="Demo" source="C:\Users\aibar\Downloads\REPOSITORY\test automation(robot) framework\development\robot-scripts\keyword-demo\demo.robot">
+<test id="s1-t1" name="Test case 1" line="7">
 <kw name="Do Something">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-09-24T15:23:41.048979" level="INFO">I am doing something...</msg>
 <arg>I am doing something...</arg>
-</arguments>
-<msg timestamp="20180927 21:11:27.372" level="INFO">I am doing something...</msg>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372"></status>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-09-24T15:23:41.046989" elapsed="0.002994"/>
 </kw>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372"></status>
+<status status="PASS" start="2025-09-24T15:23:41.020968" elapsed="0.030017"/>
 </kw>
 <kw name="Do Something Else">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-09-24T15:23:41.053969" level="INFO">I am doing something else...</msg>
 <arg>I am doing something else...</arg>
-</arguments>
-<msg timestamp="20180927 21:11:27.372" level="INFO">I am doing something else...</msg>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372"></status>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-09-24T15:23:41.053969" elapsed="0.000000"/>
 </kw>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372"></status>
+<status status="PASS" start="2025-09-24T15:23:41.051969" elapsed="0.003002"/>
 </kw>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372" critical="yes"></status>
+<status status="PASS" start="2025-09-24T15:23:41.017974" elapsed="0.037993"/>
 </test>
-<test id="s1-t2" name="Test case 2">
+<test id="s1-t2" name="Test case 2" line="11">
 <kw name="Do Another Thing">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-09-24T15:23:41.072968" level="INFO">I am doing another thing...</msg>
 <arg>I am doing another thing...</arg>
-</arguments>
-<msg timestamp="20180927 21:11:27.372" level="INFO">I am doing another thing...</msg>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372"></status>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-09-24T15:23:41.071969" elapsed="0.000999"/>
 </kw>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372"></status>
+<status status="PASS" start="2025-09-24T15:23:41.070970" elapsed="0.006993"/>
 </kw>
 <kw name="Do Something Else">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-09-24T15:23:41.083968" level="INFO">I am doing something else...</msg>
 <arg>I am doing something else...</arg>
-</arguments>
-<msg timestamp="20180927 21:11:27.372" level="INFO">I am doing something else...</msg>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372"></status>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-09-24T15:23:41.082973" elapsed="0.000995"/>
 </kw>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372"></status>
+<status status="PASS" start="2025-09-24T15:23:41.079968" elapsed="0.004000"/>
 </kw>
-<status status="PASS" starttime="20180927 21:11:27.372" endtime="20180927 21:11:27.372" critical="yes"></status>
+<status status="PASS" start="2025-09-24T15:23:41.062967" elapsed="0.023002"/>
 </test>
-<status status="PASS" starttime="20180927 21:11:27.354" endtime="20180927 21:11:27.372"></status>
+<status status="PASS" start="2025-09-24T15:23:40.575967" elapsed="0.517003"/>
 </suite>
 <statistics>
 <total>
-<stat pass="2" fail="0">Critical Tests</stat>
-<stat pass="2" fail="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="0" id="s1" name="Demo">Demo</stat>
+<stat name="Demo" id="s1" pass="2" fail="0" skip="0">Demo</stat>
 </suite>
 </statistics>
 <errors>
