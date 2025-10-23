@@ -1,0 +1,16 @@
+#include <ep/core.h>
+
+uint32_t get_analog_value(){
+    HAL_ADC_Start(&hadc1); // Start ADC conversion
+
+    // Wait until ADC converison is done...
+    while (HAL_ADC_PollForConversion(&hadc1, 0) != HAL_OK){}
+
+    uint32_t adc_value = HAL_ADC_GetValue(&hadc1);
+    return adc_value;
+}
+
+int ep_app_main(){
+    ep_register("get_analog_value", &get_analog_value);
+    return ep_process_loop();
+}
